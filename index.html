@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prawo Coulomba</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="h1">
+            <h1>Prawo Coulomba</h1>
+        </div>
+        <div class="wrap">
+            <div class="definicja">
+                <h3>Siła wzajemnego oddziaływania dwóch naładowanych cząstek jest wprost proporcjonalna do iloczynu wartości tych ładunków i odwrotnie proporcjonalna do kwadratu odległości między nimi. <br>
+                    Kierunek działania siły oddziaływania ładunków wyznacza prosta przechodząca przez oba te ładunki.
+                    Ładunki jednoimienne odpychają się, ładunki różnoimienne przyciągają się. <br>
+                    Prawo Coulomba zostało opublikowane w 1785 roku przez francuskiego fizyka Charlesa Coulomba.</h3>
+            </div>
+            <div class="img"><img src="prawo-coulomba.png" alt="prawo-coulomba"></div>
+        </div>
+        <div class="wrap1">
+            <div class="jednostka">
+                <h3>Jednostką ładunku jest 1 kulomb (1C). Nazwa pochodzi od nazwiska Charlesa Coulomba, który sformuował
+                    Prawo Coulomba.
+
+                    1 kulomb (1 C) to ładunek elektryczny przenoszony w czasie 1 sekundy (1 s) przez prąd o natężeniu
+                    wynoszącym 1 amper (1 A) <br>
+
+                    1 C = 1A*1s</h3>
+            </div>
+            <div class="stala">
+                <h3>Oddziaływanie ładunków zależy od ośrodka, w jakim znajdują się ładunki. We wzorze na siłę
+                    elektrostatyczną tę zależność pomaga zilustrować stała elektrostatyczna k (zwana także
+                    współczynnikiem
+                    proporcjonalności lub niekiedy stałą kulomba).
+
+                    Dla próżni stała elektrostatyczna k wynosi w przybliżeniu:<br>
+
+                    k = 8,9875*10 <sup>9</sup>N*m<sup>2</sup> C<sup>-2</sup> <br>
+
+
+                    Stała elektrostatyczna wyraża się wzorem: <br>
+
+                    k = 1/4πϵ = 1/4πϵ<sub>r</sub>ϵ<sub>0</sub><br>
+
+                    epsilon ϵ – przenikalność elektryczna ośrodka,<br>
+                    epsilon ϵ<sub>r</sub> – względna przenikalność elektryczna ośrodka,<br>
+                    epsilon ϵ<sub>0</sub>– przenikalność elektryczna próżni<br>
+
+                    Współczynnik przenikalności elektrycznej próżni wynosi: <br>
+
+                    epsilon ϵ<sub>0</sub> = 8,854 *10<sup>12</sup>C<sup>2</sup>/N*m<sup>2</sup>
+
+                    <ul> Względne przenikalności elektryczne dla różnych ośrodków:
+                        <li> próżnia: ϵ<sub>r</sub>=1</li>
+                        <li>powietrze: ϵ<sub>r</sub>=1,0006</li>
+                        <li>szkło: ϵ<sub>r</sub>=10</li>
+                        <li> woda: ϵ<sub>r</sub>=81</li>
+                    </ul>
+                </h3>
+            </div>
+        </div>
+        <div class="obliczanie">
+            <h2>Obliczanie Siły Elektrostatycznej</h2>
+            <div class="input"><input type="number" name="" id="q1" placeholder="podaj wartość ładunku q1"></div>
+            <div class="input"><input type="number" name="" id="q2" placeholder="podaj wartość ładunku q2"></div>
+            <div class="input"><input type="number" name="" id="r" placeholder="podaj odległość r między ładunkami">
+            </div>
+            <input type="submit" value="Oblicz" id="submit" onclick="oblicz()">
+            <div class="wynik">wynik</div>
+
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
